@@ -1,0 +1,11 @@
+{
+  "name": "personal-plugins",
+  "owner": { "name": "Jarvis" },
+  "plugins": [
+    {
+      "name": "ddd-con-ia",
+      "source": "./plugins/ddd-con-ia",
+      "description": "Aplica Domain-Driven Design con IA: el modelo del dominio en lenguaje natural es la fuente de verdad; cada cambio pasa por entrevista, RFC, implementación con tests de invariantes y validación."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ddd-con-ia",
+  "version": "0.1.0",
+  "description": "Aplica Domain-Driven Design en proyectos desarrollados con IA: Event Storming en texto, glosario, bounded contexts, RFC, ADR y revisión de código.",
+  "author": {
+    "name": "Jarvis"
+  }
+}
