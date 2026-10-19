@@ -53,7 +53,7 @@ Clase / Responsabilidades / Colaboradores
 ```
 
 ## docs/rfc/NNN-titulo.md
-Cambio chico: secciones 1 a 3.
+Cambio chico: secciones 1 a 4.
 ```markdown
 # RFC NNN: <título>
 Estado: borrador | en revisión | aprobado | implementado | rechazado
@@ -61,11 +61,16 @@ Estado: borrador | en revisión | aprobado | implementado | rechazado
 ## 2. Qué parte del dominio toca
 | Elemento (agregado, invariante, evento, término) | Contexto | nuevo / modificado / eliminado | Documento |
 ## 3. Cómo queda el modelo
-## 4. Alternativas
-## 5. Riesgos
-## 6. Plan por etapas
-## 7. Preguntas abiertas
+## 4. Cómo se valida
+- Invariantes con test (nombre en lenguaje del dominio):
+- Lo que confirma el experto y quién: <situación concreta del negocio que debe comportarse así>
+- Lo que revisa `/ddd-validar`: <contextos, eventos y términos del alcance>
+## 5. Alternativas
+## 6. Riesgos
+## 7. Plan por etapas
+## 8. Preguntas abiertas
 ```
+La sección 4 se acuerda con el experto antes de aprobar; es el cierre del RFC: se cumple cuando el experto confirma y `/ddd-validar` no marca discrepancias.
 
 ## docs/adr/NNNN-titulo.md
 1 a 3 párrafos: contexto, decisión y por qué. Opcional: alternativas, consecuencias.

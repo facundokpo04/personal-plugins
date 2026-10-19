@@ -44,6 +44,6 @@ Al cerrar cada paso: todo término usado está en el glosario y lo nuevo vuelve 
 4. **Actualizar el modelo.**
 5. **Implementar** (`references/implementar.md`): tests de invariantes primero, con nombre en lenguaje del dominio; luego código.
 6. **Validar** (`references/validacion.md`).
-7. **Cerrar**: modelo, código y tests coinciden; RFC marcado implementado.
+7. **Cerrar**: modelo, código y tests coinciden; RFC marcado implementado y su sección "Cómo se valida" cumplida.
 
 Imprevisto: parar y actualizar RFC y modelo.
